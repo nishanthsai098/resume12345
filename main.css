@@ -1,0 +1,53 @@
+/* body{
+  background-color: pink;
+}
+.card{
+  background: red;
+  text-align:center;
+}
+img{
+  width: 10%;
+}
+.card{
+  background: thinkgreen;
+  border-radius: 2em;
+}
+#card{
+  justify-content:space-around;
+  display: flex;
+  margin: 3%;
+  width:30%;
+
+}
+.card:hover{
+  box-shadow: 0 25px 25px 0 blue;
+} */
+
+body{
+  text-align: center;
+  background: #acfaca;
+}
+img{
+  width: 20%;
+}
+#card{
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+
+
+}
+.card{
+  background: red;
+  border-radius: 1em;
+  width: 20%;
+}
+.card:hover{
+  box-shadow: 0 8px 80px 0 blue;
+}
+
+@media only screen and(min-device-width:350px)and(max-device-width:464px) {
+  .card{
+    width:100%
+  }
+}

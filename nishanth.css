@@ -1,0 +1,26 @@
+.main{
+  background: pink;
+  width: 90%;
+  display: flex;
+  text-align: center;
+
+}
+.left{
+  background: gold;
+  width: 30%;
+}
+.right{
+  background: red;
+  width:70%;
+}
+img{
+  width:50%;
+}
+@media only screen and(min-device-width:420px) and(max-device-width:720px){
+.main{
+    width:100%;
+  }
+  .left{
+    width:100%;
+    flex-wrap: wrap;
+  }
